@@ -5,9 +5,9 @@ export const AppDataSource = new DataSource({
  type: "postgres",
  host: "localhost",
  port: 5432,
- username: "postgres",
+ username: "tapioca",
  password: "123asd",
- database: "api-softex",
+ database: "apisoftex",
  entities: [User],
  synchronize: true,
 })
